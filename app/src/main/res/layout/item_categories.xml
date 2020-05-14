@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="category"
+            type="com.example.pouritup.data.network.entity.Category" />
+    </data>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:elevation="2dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/textViewCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/broadwayd"
+        android:layout_gravity="center"
+        style="@style/AudioFileInfoOverlayTextBlack"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="This is text here" />
+
+</FrameLayout>
+</layout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pour It Up</string>
+    <string name="my_favorites_title">Favorites</string>
+    <string name="ingredients_list_title">Ingredients</string>
+    <string name="categories_list_title">Categories</string>
+    <string name="a11y_drink_item_image" translation_description="Accessibility text for each of the plant images shown in the 'My garden' and 'Plant list' screens.">Picture of plant</string>
+    <string name="coctail_detail_image_content_description" translation_description="Content description for the header / hero image that is show at the top of the plant detail screen.">Image of plant</string>
+</resources>

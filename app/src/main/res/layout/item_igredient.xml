@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    android:id="@+id/relativeLayoutIngredient"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="ingredient"
+            type="com.example.pouritup.data.network.entity.Ingredient" />
+    </data>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:background="@color/white"
+    android:elevation="2dp"
+    android:paddingStart="16dp">
+
+    <TextView
+        android:id="@+id/textViewIngredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:fontFamily="@font/broadwayd"
+        android:gravity="center"
+        style="@style/AudioFileInfoOverlayTextBlue"
+        android:layout_toStartOf="@+id/favorite"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="This is text here" />
+
+    <com.example.pouritup.screens.widget.CheckableImageView
+        android:id="@+id/favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/padding_small"
+        android:background="@drawable/ripple_circular"
+        android:padding="@dimen/padding_small"
+        app:srcCompat="@drawable/favorite_state_list" />
+
+</RelativeLayout>
+</layout>

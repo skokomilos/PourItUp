@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/destination_home">
+
+    <fragment
+        android:id="@+id/destination_home"
+        android:name="com.example.pouritup.HomeViewFragment"
+        android:label="HomeViewFragment"
+        tools:layout="@layout/fragment_view_pager">
+        <action
+            android:id="@+id/action_destination_home_to_drinksFragment"
+            app:destination="@id/drinksFragment" />
+        <action
+            android:id="@+id/action_destination_home_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/drinksFragment"
+        android:name="com.example.pouritup.screens.drink.DrinksFragment"
+        android:label="DrinksFragment"
+        tools:layout="@layout/fragment_drinks">
+        <action
+            android:id="@+id/action_drinksFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="categoryName"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="ingredientName"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.pouritup.screens.detail.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="drinkID"
+            app:argType="string"
+            android:defaultValue="default" />
+    </fragment>
+</navigation>

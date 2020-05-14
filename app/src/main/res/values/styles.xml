@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PIU" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.PIU" parent="Base.Theme.PIU"/>
+
+    <style name="Theme.PIU.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="ShapeAppearance.Sunflower.FAB" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerFamily">rounded</item>
+
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">@dimen/fab_corner_radius</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">@dimen/fab_corner_radius</item>
+    </style>
+
+    <!-- Plus button on detail page -->
+    <dimen name="fab_corner_radius">30dp</dimen>
+
+
+    <style name="TextAppearance.Sunflower.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5" >
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="Theme.PIU.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <style name="AudioFileInfoOverlayText">
+        <item name="android:paddingLeft">8px</item>
+        <item name="android:paddingBottom">8px</item>
+        <item name="android:textColor">@color/vice_pink</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowColor">@color/vice_blue</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="AudioFileInfoOverlayTextBlack">
+        <item name="android:paddingLeft">8px</item>
+        <item name="android:paddingBottom">8px</item>
+        <item name="android:textColor">@color/vice_pink</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="AudioFileInfoOverlayTextBlue">
+        <item name="android:paddingLeft">8px</item>
+        <item name="android:paddingBottom">8px</item>
+        <item name="android:textColor">@color/vice_blue</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="AudioFileInfoOverlayTextPinkOnWHite">
+        <item name="android:paddingLeft">8px</item>
+        <item name="android:paddingBottom">8px</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">31sp</item>
+        <item name="android:shadowColor">@color/vice_pink</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+</resources>
