@@ -11,8 +11,8 @@ Pour it up is a simple demo app witch allows you to chose recipies of coctails o
 -API used in this project [The Cocktail DB](https://rapidapi.com/theapiguy/api/the-cocktail-db?endpoint=apiendpoint_b2280d27-a2ef-4de9-be14-8c3f88f2d9ec)
 
 ## Libraries Used
-Focus on [Android Jetpack]([https://developer.android.com/jetpack](https://developer.android.com/jetpack)) as core of this project
-[Android KTX]([https://developer.android.com/kotlin/ktx](https://developer.android.com/kotlin/ktx)) - Write more concise, idiomatic Kotlin code.
+Focus on [Android Jetpack](https://developer.android.com/jetpack) as core of this project
+[Android KTX](https://developer.android.com/kotlin/ktx) - Write more concise, idiomatic Kotlin code.
 
 [Arhitecture](https://developer.android.com/topic/libraries/architecture)
  -  [ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)
@@ -28,18 +28,24 @@ Focus on [Android Jetpack]([https://developer.android.com/jetpack](https://devel
  - [Layout](https://developer.android.com/guide/topics/ui/declaring-layout)
 
 Third party
- - [Glide]([https://bumptech.github.io/glide/](https://bumptech.github.io/glide/)) image loading
+ - [Glide](https://bumptech.github.io/glide/) image loading
  - [Grupie](https://github.com/lisawray/groupie) RecyclerView layouts
- - [Retrofit]([https://square.github.io/retrofit/](https://square.github.io/retrofit/)) Android HTTP Client
+ - [Retrofit](https://square.github.io/retrofit/) Android HTTP Client
  - [Kotlin Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) or managing background threads
-  - [Kodein]([https://kodein.org/Kodein-DI/?5.0/android](https://kodein.org/Kodein-DI/?5.0/android)) DI on Android
+  - [Kodein](https://kodein.org/Kodein-DI/?5.0/android) DI on Android
 ## Screenshots
+
+<img src="screenshots/device-2020-05-15-011724_framed.png" width="180">
+<img src="screenshots/device-2020-05-15-011824_framed.png" width="180">
+<img src="screenshots/device-2020-05-15-011845_framed.png" width="180">
+<img src="screenshots/device-2020-05-15-011859_framed.png" width="180">
+<img src="screenshots/device-2020-05-15-011908_framed.png" width="180">
 
 
 ## Others
 
   - [Icon](https://www.flaticon.com/free-icon/cocktail_955836?term=cocktail&page=1&position=32)
-  - Fonts: - [BroadwayD](https://www.wfonts.com/font/broadwayd) , [Rage Italic]((https://www.dafontfree.net/freefonts-rage-italic-f65266.htm)) , [Still Time](https://www.dafont.com/still-time.font)
+  - Fonts: - [BroadwayD](https://www.wfonts.com/font/broadwayd) , [Rage Italic](https://www.dafontfree.net/freefonts-rage-italic-f65266.htm) , [Still Time](https://www.dafont.com/still-time.font)
   - App colors and design inspired by game GTA Vice City and TV Show Miami Vice
 
 ## Licence
