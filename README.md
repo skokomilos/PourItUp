@@ -35,8 +35,7 @@ Third party
   - [Kodein](https://kodein.org/Kodein-DI/?5.0/android) DI on Android
 ## Screenshots
 
-<img src="screenshots/device-2020-05-15-011724_framed.png" width="180">
-<img src="screenshots/device-2020-05-15-011824_framed.png" width="180">
+<img src="screenshots/device-2020-05-15-011724_framed.png" width="180"><img src="screenshots/device-2020-05-15-011824_framed.png" width="180">
 <img src="screenshots/device-2020-05-15-011845_framed.png" width="180">
 <img src="screenshots/device-2020-05-15-011859_framed.png" width="180">
 <img src="screenshots/device-2020-05-15-011908_framed.png" width="180">
